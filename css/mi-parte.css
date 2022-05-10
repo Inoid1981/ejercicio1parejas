@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Envía tu noticia</h1>
+    <section>
+        <h2>Portada</h2>
+    </section>
+
+    <section>
+        <ul>
+            <li>
+                <a href="#Cubre esto para ver tu noticia">Cubre esto para ver tu noticia</a>
+                <link rel="stylesheet" href="#cubre esto para ver tu noticia.css">
+
+
+                <header>
+                    <label for="texto">Título de la noticia</label>
+                    <input type="texto" id="texto">
+                
+                <header>
+                    <label for="texto">Texto de la noticia</label>
+                    <input type="texto" id="texto">
+
+                </header>
+                </header>
+            </li>
+        </ul>
+    </section>
+</body>
+</html>
