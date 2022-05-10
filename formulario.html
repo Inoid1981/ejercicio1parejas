@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
-  <head>
+  <head> <link rel="stylesheet" href="css/style.css">
     <meta charset="UTF-8" />
     <title>Envía tu noticia</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -13,6 +13,17 @@
       </nav>
     </header>
 
-    <main>(poner aquí el formulario)</main>
-  </body>
-</html>
+    <main>
+      <form>
+          <fieldset>
+              <legend>Cubre estos datos para enviar tu noticia</legend>
+              <label for="titulo">Titulo de la noticia</label>
+              <input type="text" id="titulo">
+              <label for="texto">Texto de la noticia</label>
+              <textarea name="" id="texto" cols="30" rows="10"></textarea>
+          </fieldset>
+          <button>Enviar</button>
+      </form>
+  </main>
+  <body>
+  </html>
